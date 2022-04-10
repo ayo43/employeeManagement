@@ -22,3 +22,4 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('employee_detail/<int:employee_id>', views.employee_details, name='employee_details'),
 ]
+#test
